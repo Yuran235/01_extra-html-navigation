@@ -1,0 +1,42 @@
+.text1 {
+  font-family: "ISOCPEUR", sans-serif; /* Укажите нужный шрифт */
+  font-size: 16px; /* Опционально: размер шрифта */
+  font-style: italic; /* Опционально: размер шрифта */
+  color: #000000; /* Опционально: цвет текста */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Основной стиль таблицы */
+#Table1 {
+  width: 100%;
+  border-collapse: collapse; /* Убирает двойные границы */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Заголовок таблицы (thead) */
+#Table1 thead th,
+#Table1 thead td {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Основное тело таблицы (tbody) */
+#Table1 tbody td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Нижний колонтитул таблицы (tfoot) */
+#Table1 tfoot td {
+  font-weight: bold;
+  background-color: #e9e9e9;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
